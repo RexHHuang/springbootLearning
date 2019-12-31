@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 123456
+    url: jdbc:mysql://localhost:3306/springboot-cache
+  redis:
+    host: 192.168.244.135
+#开启驼峰命名匹配规则
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+
+debug: true
